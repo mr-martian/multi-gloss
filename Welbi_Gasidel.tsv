@@ -1,0 +1,44 @@
+%META
+title	Welbi Gasidel
+
+%LANG	X
+name	Xanz
+%TRANS
+English
+%LINES
+text	Xanz text
+morph	Xanz morphemes
+morph	English morpheme gloss
+trans	English word gloss
+
+%LANG	S
+name	Sajem Tan
+%TRANS
+English
+%LINES
+text	Sajem Tan text
+morph	Sajem Tan morphemes
+morph	English morpheme gloss
+trans	English word gloss
+# blah
+
+%TEXT
+
+%LINE
+X	Welbi	wlb/ey-i		of that which has been sung
+X	Gasidel	gsd/ai-el		the organization
+X-T	The Organization of that which has been Sung
+S	Slnolxemnocvmeh	slnolxem-noc-vmeh		the organizational structure of
+S	Cejymthnu	cejym-thnu		the song	F1
+S-T	The Organizational Structure's Song
+S-F1	Con
+S-F1	Xanz	X	X	Xanz
+S-F1	omehctangynah	om-ehc-tan-gyn-ah		speakers of
+S-F1	tan,	tan[pr]
+S-F1	slnolxemvah	slnolxem-vah
+
+%DICT	X	2	3
+wlb	sing
+gsd	organize
+el	PART
+i	GEN

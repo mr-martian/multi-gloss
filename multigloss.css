@@ -1,0 +1,8 @@
+.word {
+    display: inline-block;
+    margin: 10px;
+}
+
+p {
+    margin: 5px;
+}
