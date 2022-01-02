@@ -6,3 +6,7 @@
 p {
     margin: 5px;
 }
+
+.smallcaps {
+    font-variant-caps: all-small-caps;
+}

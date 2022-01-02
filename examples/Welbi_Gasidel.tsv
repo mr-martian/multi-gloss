@@ -47,7 +47,7 @@ X	tejyw?	tjw/ey		story
 
 %LINE
 X	Tan	tan		what are
-X	xwi	xwi		its
+X	xwi	xow-i		its
 X	tawatelek	twt/aa-el=ek		very small pieces and
 X	lalafel?	llf/aa-el		very large pieces
 S	Duvmeh	du-vmeh		its
@@ -201,7 +201,7 @@ X	zemyk	zbk/ey		water
 X	tawateli	twt/aa-el-i		among the elements
 X	tegyth	tgth/ey		both
 X	ol	ol		but
-X	eni	eni		according to me
+X	eni	e-di		according to me
 X	xow	xow		it
 X	tawateli	twt/aa-el-i		element's
 X	banthe.	bdth/á		two
@@ -255,7 +255,7 @@ S	vaslnulmeht.	vaslnulm-eht		?TODO
 S-T	If water is upon a table, we know that it will vanish.
 
 %LINE
-X	Exow,	exow		?TODO
+X	Exow,	e-xow		?TODO
 X	lamde	lbd/á		syrup
 X	zebkek	zbk/ey=ek		water and
 X	zasaxel.	zsx/aa-el		meat
@@ -269,10 +269,10 @@ S-T	Thus, syrup is water and flesh.
 
 %LINE
 X	Áthixudiñ	áthi-xdz/uí		we know
-X	xwi	xwi		it's
+X	xwi	xow-i		it's
 X	ugxíth	u-gxth/uí		majority
 X	zasixun	zsx/ai-un		being meat
-X	exow:	exow		by this
+X	exow:	e-xow		by this
 X	zebken	zbk/ey-en		in water
 X	lebfílek	le-bfl/uí=ek		it slows down and
 X	letañeb.	le-tzb/áe		it sinks
@@ -326,7 +326,7 @@ X	tawatel	twt/aa-el		elements
 X	alem	alem		beside
 X	dazibel,	dzb/ai-el		similar
 X	lewabufílek	le-wa-bfl/uí=ek		they will slow down and
-X	xwi	xwi		their
+X	xwi	xow-i		their
 X	goñhad	gsd/óa		positions
 X	lebuxíj.	le-bxj/uí		they will exchange
 X-T	If elements are beside similar ones, they will slow down and change places.
@@ -387,6 +387,7 @@ wa	POT
 zú	DES
 on	REFL
 u	SUP
+un	NMLZ
 
 'db	hear
 'dp	walk
@@ -475,12 +476,21 @@ ah	PL
 con	QUOT
 eht	HAB
 jot	FUT
+ku	QST
+mun	INTS
 om	END.QUOT
 sho	CONT
+sun	PASS
 sut	ORD
+tutu	SUP
+uk	NEG
 um	GNO
 vmeh	GEN
 zheh	FOC
+
+# TODO: how to gloss these?
+thnu	NMLZ
+noc	NMLZ
 
 cejym	sing
 keh	and
@@ -488,17 +498,17 @@ slnolxem	organize
 thefam	stone
 
 decec	?TODO
-dolk	?TODO
+dolk	one
 du	3I
 duht	big
 ehc	language
 fam	two
-felt	?TODO
+felt	two
 fmolk	?TODO
 fmuhzhik	?TODO
 foldak	air
 fun	small
-fynit	?TODO
+fynit	meat
 gyn	?TODO
 jagec	?TODO
 jo	then
@@ -510,7 +520,7 @@ melnazic	syrup
 navnyc	upon
 seh	1A
 sit	?TODO
-slolc	?TODO
+slolc	four
 smah	but
 solt	?TODO
 solsolm	spectrum
@@ -522,12 +532,13 @@ tivemolk	?TODO
 tolzlneln	?TODO
 vaslnulm	?TODO
 vmelfelc	?TODO
-vyk	?TODO
-xek	?TODO
+vyk	three
+xek	six
+xen	no
 zan	be
 zazit	dirt
 zhnazym	?TODO
-zlelc	?TODO
+zlelc	five
 zlo	?TODO
 zo	?TODO
 zult	according.to

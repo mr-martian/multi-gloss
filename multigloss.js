@@ -1,3 +1,5 @@
+var smallcaps = /^[A-Z\.0-9]+$/;
+
 var make_line = function(lg, blob) {
     if (!blob) {
         return '';
@@ -16,7 +18,11 @@ var make_line = function(lg, blob) {
                 for (let j = 0; j < lin.length; j++) {
                     ret += '<tr class="'+lg+'-'+i+'-'+j+'">';
                     ret += lin[j].map(function(m) {
-                        return '<td>'+m+'</td>';
+                        if (m.match(smallcaps)) {
+                            return '<td class="smallcaps">'+m+'</td>';
+                        } else {
+                            return '<td>'+m+'</td>';
+                        }
                     }).join('');
                     ret += '</tr>';
                 }
