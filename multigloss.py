@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from collections import defaultdict
 import itertools
 import json
 
@@ -194,6 +195,19 @@ class Language:
                     lt = LineType()
                     lt.from_tsv(l)
                     self.lines.append(lt)
+    def word_index(self, lineno):
+        l = -1
+        m = -1
+        for n, ln in enumerate(self.lines, 1):
+            if ln.ltype == 'morph':
+                if m == -1:
+                    l += 1
+                m += 1
+            else:
+                m = -1
+                l += 1
+            if n == lineno:
+                return (l, m)
 
 class AutoDict:
     def __init__(self):
@@ -212,6 +226,18 @@ class AutoDict:
             if c > len(l.lines):
                 blk.head.error('Language %s (%s) has no column %s' % (l.name, self.lang, c))
         self.data = blk.parse_dict(str, str)
+    def apply(self, doc):
+        lg = doc.langs[self.lang]
+        sl, sm = lg.word_index(self.src)
+        tl, tm = lg.word_index(self.trg)
+        if sl != tl or sm == -1 or tm == -1:
+            return # don't know what to do with this yet
+        for w in doc.iter_words(lang=self.lang):
+            if len(w.fields) <= sl:
+                continue
+            for m in w.fields[sl][1]:
+                if m.fields[sm] and not m.fields[tm]:
+                    m.fields[tm] = self.data.get(m.fields[sm], '')
 
 class TSVLine:
     def __init__(self, text, lineno):
@@ -340,6 +366,41 @@ class Document:
                 d = AutoDict()
                 d.from_tsv(b, self.langs)
                 self.dicts.append(d)
+    def apply_dicts(self):
+        for d in self.dicts:
+            d.apply(self)
+    def iter_words(self, lang=None, footnotes=None):
+        for s in self.sents:
+            for (lg, fn), ws in s.lines.items():
+                if lang and lg != lang:
+                    continue
+                if footnotes and fn not in footnotes:
+                    continue
+                for w in ws.words:
+                    yield w
+    def find_unglossed_morphs(self):
+        for lang in self.langs:
+            miss = defaultdict(lambda: defaultdict(set))
+            for w in self.iter_words(lang=lang):
+                for loc, mls in w.fields:
+                    if isinstance(mls, str):
+                        continue
+                    mn = loc[0]
+                    for morph in mls:
+                        if all(morph.fields):
+                            continue
+                        for i in range(len(morph.fields)):
+                            if not morph.fields[i]:
+                                continue
+                            for j in range(len(morph.fields)):
+                                if i == j or morph.fields[j]:
+                                    continue
+                                miss[i+mn][j+mn].add(morph.fields[i])
+            if len(miss) > 0:
+                print('Unglossed morphemes in %s:' % self.langs[lang].name)
+                for l1 in sorted(miss.keys()):
+                    for l2 in sorted(miss[l1].keys()):
+                        print('  Entries on line %s without corresponding entry on line %s: %s' % (l1, l2, ' '.join(sorted(miss[l1][l2]))))
 
 HTML_TEMPLATE = '''<!DOCTYPE html>
 <html>
@@ -383,11 +444,16 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('infile', action='store')
     parser.add_argument('outfile', action='store')
+    parser.add_argument('-m', '--warn-morphemes', action='store_true',
+                        help="Warn on un-glossed morphemes")
     args = parser.parse_args()
 
     with open(args.infile) as fin:
         d = Document()
         d.from_tsv(fin)
+        d.apply_dicts()
+        if args.warn_morphemes:
+            d.find_unglossed_morphs()
         #print(json.dumps(d.json(), indent=2))
         #print(make_html(d))
         with open(args.outfile, 'w') as fout:

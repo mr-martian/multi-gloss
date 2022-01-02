@@ -8,6 +8,9 @@ var make_line = function(lg, blob) {
         for (let i = 0; i < LANGS[lg].lines.length; i++) {
             let typ = LANGS[lg].lines[i].type;
             let lin = w.lines[i];
+            if (!lin) {
+                continue;
+            }
             if (typ == 'morph') {
                 ret += '<table><tbody>';
                 for (let j = 0; j < lin.length; j++) {
