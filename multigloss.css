@@ -10,3 +10,11 @@ p {
 .smallcaps {
     font-variant-caps: all-small-caps;
 }
+
+.line {
+    border-bottom: 1px solid black;
+}
+
+.lang-line:nth-child(even) {
+    background: #DDDDDD;
+}

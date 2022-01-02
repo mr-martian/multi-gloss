@@ -43,7 +43,10 @@ class Word:
                     cur = ['']
                     for m in v:
                         cur[-1] += m.prefix
-                        cur.append(m.fields[i])
+                        if '[' in m.fields[i]:
+                            cur.append(m.fields[i].split('[')[0])
+                        else:
+                            cur.append(m.fields[i])
                         cur.append(m.suffix)
                     ls.append(cur)
                 lines.append(ls)
