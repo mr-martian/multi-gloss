@@ -31,19 +31,54 @@ X-T	The Organization of that which has been Sung
 S	Slnolxemnocvmeh	slnolxem-noc-vmeh		the organizational structure of
 S	Cejymthnu	cejym-thnu		the song	F1
 S-T	The Organizational Structure's Song
-S-F1	Con
+S-F1	Con	con		[quote]
 S-F1	Xanz	X	X	Xanz
 S-F1	omehctangynah	om-ehc-tan-gyn-ah		speakers of
-S-F1	tan,	tan[pr]
-S-F1	slnolxemvah	slnolxem-vah
+S-F1	tan,	tan		say
+S-F1	slnolxemvah	slnolxem-vah		with song
+S-F1	slet	slet		according to tradition
+S-F1	fmyvuhkfehsun	fmyvuhk-feh-sun		was made
+S-F1	xytmolmdin,	xyt-molm-din		the world
+S-F1	tyk	tyk		so
+S-F1	vemekzheh,	vemek-zheh		regarding science
+S-F1	"xytmolmdin"	xyt-molm-din		the world
+S-F1	zanum	zan-um		is
+S-F1	con	con		[quote]
+S-F1	Welyb	Welyb	Welyb	Welyb
+S-F1	om.	om		[end quote]
+S-F1-T	The speakers of Xanz traditionally say that the world was created with song, so in science, "Welyb" is "the world".
 
 %LINE
 X	Efáthel:	e-Fáthel		Fáthel said
-X	Tan	tan		Q
+X	Tan	tan		[question]
 X	Welbi	wlb/ey-i		the song's
 X	gáxtheli	gxth/áe-el-i		enumerated things'
 X	gasideli	gsd/ai-el-i		organization's
 X	tejyw?	tjw/ey		story
+X-T	Fáthel said: What is the story of the organization of the pieces of the song?
+S	Con	con		[quote]
+S	Fáthel	Fáthel		Fáthel
+S	om	om		[end quote]
+S	julgic,	julgic		asked
+S	Slnolxemnocvmeh	slnolxem-noc-vmeh		sung things'
+S	xuhmsoahvmeh	xuhm-so-ah-vmeh		numbered things'	F2
+S	cejymthnuvmeh	cejym-thnu-vmeh		organization's
+S	znenan	znenan		story
+S	zanum	zan-um		is
+S	duku?	du-ku		what
+S-T	Fáthel asked: What is the story of the organization of the enumerated pieces of that which has been sung?
+S-F2	Thycamehtsun	thycam-eht-sun		be read
+S-F2	sin	sin		should
+S-F2	cesikdeh	cesik-deh		this word
+S-F2	tidyn	tidyn		like
+S-F2	"mu	mu		[rel clause]
+S-F2	sazemfehsun	sazem-feh-sun		are divided
+S-F2	keh	keh		and
+S-F2	julvoltfehsun	julvolt-feh-sun		are given names
+S-F2	duah	du-ah		they
+S-F2	om	om		[end clause]
+S-F2	tultah".	tult-ah		things
+S-F2-T	This word should be read like "things which can be divided and given names."
 
 %LINE
 X	Tan	tan		what are
@@ -65,16 +100,16 @@ X	Exanzel:	e-xdz/á-el		the Wise said
 X	Anatitujíw.	ana-ti-tjw/uí		I will tell you
 X	Áthidikugíj	áthi-ti-kgj/uí		I will begin
 X	anhawatlen.	á[case]-twt/aa-el-en		with the very small pieces
-S	Vmelfelc	vmelfelc		?TODO
-S	con	con		?TODO
+S	Vmelfelc	vmelfelc		wise
+S	con	con		[quote]
 S	Jakeñ	Jakeñ		Jakeñ
-S	om	om		?TODO
-S	jagec,	jagec		?TODO
-S	kizhultsho	kizhult-sho		?TODO
-S	sehjot.	seh-jot		?TODO
-S	Tivemolkahzheh	tivemolk-ah-zheh		?TODO
-S	kizhultsho	kizhult-sho		?TODO
-S	sit	sit		?TODO
+S	om	om		[end quote]
+S	jagec,	jagec		replied
+S	kizhultsho	kizhult-sho		telling
+S	sehjot.	seh-jot		I will
+S	Tivemolkahzheh	tivemolk-ah-zheh		about the small things
+S	kizhultsho	kizhult-sho		telling
+S	sit	sit		begin
 S	seh.	seh		I
 S-T	Jakeñ the Wise replied: I will tell you the story. I will begin with the very small things.
 
@@ -84,12 +119,12 @@ X	tawatel	twt/aa-el		small pieces
 X	legañhed	le-gsd/áe		are organized
 X	jen	jen		only
 X	etdolel.	e-tdl/yo-el		according to weight
-S	Cejymumsun	cejym-um-sun		?TODO
-S	funmun	fun-mun		?TODO
-S	tivemolkah	tivemolk-ah		?TODO
-S	decec	decec		?TODO
-S	telmynsolsolm	telmyn-solsolm		?TODO
-S	zult.	zult		?TODO
+S	Cejymumsun	cejym-um-sun		be organized
+S	funmun	fun-mun		very small
+S	tivemolkah	tivemolk-ah		small things
+S	decec	decec		only
+S	telmynsolsolm	telmyn-solsolm		weight
+S	zult.	zult		according to
 S-T	The smallest things are organized only according to weight.
 
 %LINE
@@ -97,9 +132,9 @@ X	Tydli	tdl/yo-i		weights'
 X	kandeli	kdd/áe-el-i		name's
 X	jáfe'.	jf'/áe		six
 X-T	The weights' six names:
-S	Xek	xek		?TODO
-S	telmynsolsolmahvmeh	telmyn-solsolm-ah-vmeh		?TODO
-S	julvetah.	julvet-ah		?TODO
+S	Xek	xek		six
+S	telmynsolsolmahvmeh	telmyn-solsolm-ah-vmeh		weight's
+S	julvetah.	julvet-ah		names
 S-T	[There are] 6 named weights.
 
 %LINE
@@ -161,21 +196,21 @@ S-T	Sixth: dry air.
 
 %LINE
 X	Efáthel:	e-Fáthel		Fáthel said
-X	Tan	tan		?TODO
+X	Tan	tan		[question]
 X	Egad	e-Gad		according to Gad
 X	lamde	lbd/á		syrup
 X	etawatli?	e-twt/aa-el-i		among the elements
-S	Con	con		?TODO
+S	Con	con		[quote]
 S	Fáthel	Fáthel		Fáthel
-S	om	om		?TODO
-S	julgic,	julgic		?TODO
-S	con	con		?TODO
-S	Gad	Gad		?TODO
-S	om	om		?TODO
-S	zult	zult		?TODO
-S	funmuntivemolkum	fun-mun-tivemolk-um		?TODO
-S	solt	solt		?TODO
-S	melnazic?	melnazic		?TODO
+S	om	om		[end quote]
+S	julgic,	julgic		ask
+S	con	con		[quote]
+S	Gad	Gad		Gad
+S	om	om		[end quote]
+S	zult	zult		according to
+S	funmuntivemolkum	fun-mun-tivemolk-um		be a very small thing
+S	solk	solk		but isn't?
+S	melnazic?	melnazic		syrup
 S-T	Fáthel asked: According to Gad, isn't syrup an element?
 
 %LINE
@@ -184,13 +219,13 @@ X	Exanzel:	e-xdz/á-el		the Wise said
 X	Áthideugéúl	áthi-dgl/euéú		I see that he is wrong
 X	goñhaden.	gsd/óa-en		again
 S	Vmelfelc	vmelfelc		wise
-S	con	con		?TODO
+S	con	con		[quote]
 S	Jakeñ	Jakeñ		Jakeñ
-S	om	om		?TODO
+S	om	om		[end quote]
 S	tan,	tan		said
-S	tholk	tholk		?TODO
-S	kasyn	kasyn		?TODO
-S	xenum	xen-um		?TODO
+S	tholk	tholk		by direct observation
+S	kasyn	kasyn		again
+S	xenum	xen-um		be wrong
 S	zlo.	zlo		he
 S-T	Jakeñ the Wise said: I see that he is wrong again.
 
@@ -206,11 +241,11 @@ X	xow	xow		it
 X	tawateli	twt/aa-el-i		element's
 X	banthe.	bdth/á		two
 X-T	According to Gad, syrup and water are both (separately) among the elements, but according to me, it (syrup) is two elements.
-S	Con	con		?TODO
+S	Con	con		[quote]
 S	Gad	Gad		Gad
-S	om	om		?TODO
+S	om	om		[end quote]
 S	zult	zult		according to
-S	funmuntivemolkum	fun-mun-tivemolk-um		?TODO
+S	funmuntivemolkum	fun-mun-tivemolk-um		be a very small thing
 S	melnazic	melnazic		syrup
 S	smah	smah		but
 S	seh	seh		me
@@ -227,15 +262,15 @@ X	iszybok	ise-zbk/yo		you pour out
 X	lamde	lbd/á		syrup
 X	amngathen	á[case]-bgth/óa-en		into a pan
 X	iswafeufeun.	ise-wa-ffd/euéú		you will see that it will dry out
-S	Zhnazym	zhnazym		?TODO
-S	fmolk	fmolk		?TODO
-S	melnazic	melnazic		?TODO
-S	navnycum,	navnyc-um		?TODO
-S	jo	jo		?TODO
-S	fmuhzhik	fmuhzhik		?TODO
-S	tholm	tholm		?TODO
-S	zo	zo		?TODO
-S	zyvuhkeht.	zyvuhk-eht		?TODO
+S	Zhnazym	zhnazym		table
+S	fmolk	fmolk		[irrealis]
+S	melnazic	melnazic		syrup
+S	navnycum,	navnyc-um		be upon
+S	jo	jo		then
+S	fmuhzhik	fmuhzhik		dry
+S	tholm	tholm		according to common sense
+S	zo	zo		it
+S	zyvuhkeht.	zyvuhk-eht		becomes
 S-T	If syrup is upon a table, we know that it will dry out.
 
 %LINE
@@ -244,23 +279,23 @@ X	iszybok	ise-zbk/yo		you pour out
 X	zebyk	zbk/ey		water
 X	amngathen	á[case]-bgth/óa-en		into a pan
 X	iswaseuseunh.	ise-wa-sst/euéú		you will see that it will disappear
-S	Zhnazym	zhnazym		?TODO
-S	fmolk	fmolk		?TODO
-S	tolzlneln	tolzlneln		?TODO
-S	navnycum,	navnyc-um		?TODO
-S	jo	jo		?TODO
-S	tholm	tholm		?TODO
-S	zo	zo		?TODO
-S	vaslnulmeht.	vaslnulm-eht		?TODO
+S	Zhnazym	zhnazym		table
+S	fmolk	fmolk		[irrealis]
+S	tolzlneln	tolzlneln		water
+S	navnycum,	navnyc-um		be upon
+S	jo	jo		then
+S	tholm	tholm		according to common sense
+S	zo	zo		it
+S	vaslnulmeht.	vaslnulm-eht		flees
 S-T	If water is upon a table, we know that it will vanish.
 
 %LINE
-X	Exow,	e-xow		?TODO
+X	Exow,	e-xow		thus
 X	lamde	lbd/á		syrup
 X	zebkek	zbk/ey=ek		water and
 X	zasaxel.	zsx/aa-el		meat
 S	Jo,	jo		then
-S	tolzlneln	tolzlneln		?TODO
+S	tolzlneln	tolzlneln		water
 S	keh	keh		and
 S	fynit	fynit		flesh
 S	zanum	zan-um		is
@@ -301,7 +336,7 @@ X-T	Wet air and dry air rise in water.
 
 %LINE
 X	Efáthel:	e-Fáthel		Fáthel said
-X	Tan	tan		?
+X	Tan	tan		[question]
 X	sójaj?	sjj/óa		fire
 X-T	Fáthel said: What about fire?
 
@@ -474,9 +509,12 @@ Jakeñ	Jakeñ
 %DICT	S	2	3
 ah	PL
 con	QUOT
+deh	PRX
 eht	HAB
+feh	DUR
 jot	FUT
 ku	QST
+mu	REL
 mun	INTS
 om	END.QUOT
 sho	CONT
@@ -485,6 +523,7 @@ sut	ORD
 tutu	SUP
 uk	NEG
 um	GNO
+vah	INST
 vmeh	GEN
 zheh	FOC
 
@@ -497,52 +536,69 @@ keh	and
 slnolxem	organize
 thefam	stone
 
-decec	?TODO
+cesik	word
+decec	only
+din	home
 dolk	one
 du	3I
 duht	big
 ehc	language
 fam	two
 felt	two
-fmolk	?TODO
-fmuhzhik	?TODO
+fmolk	IRREL
+fmuhzhik	dry
+fmyvuhk	make
 foldak	air
 fun	small
 fynit	meat
-gyn	?TODO
-jagec	?TODO
+gyn	AGNT
+jagec	reply
 jo	then
-julgic	?TODO
-julvet	?TODO
-kasyn	?TODO
+julgic	ask
+julvet	name
+julvolt	name
+kasyn	again
 kizhult	tell.a.story
 melnazic	syrup
+molm	tribe
 navnyc	upon
+sazem	divide
 seh	1A
-sit	?TODO
+sin	should
+sit	begin
+slet	traditionally
 slolc	four
 smah	but
-solt	?TODO
+so	possessor
+solk	clarify
 solsolm	spectrum
 tan	said
-telmyn	?TODO
-tholk	?TODO
-tholm	?TODO
-tivemolk	?TODO
-tolzlneln	?TODO
-vaslnulm	?TODO
-vmelfelc	?TODO
+telmyn	heavy
+tholk	sensed
+tholm	common.sense
+thycam	read
+tidyn	like
+tivemolk	tiny
+tolzlneln	water
+tult	thing
+tyk	so
+vaslnulm	flee
+vemek	science
+vmelfelc	wise
 vyk	three
 xek	six
 xen	no
+xuhm	ammount
+xyt	all
 zan	be
 zazit	dirt
-zhnazym	?TODO
+zhnazym	table
 zlelc	five
-zlo	?TODO
-zo	?TODO
+zlo	3A
+znenan	story
+zo	3I
 zult	according.to
-zyvuhk	?TODO
+zyvuhk	become
 
 Gad	Gad
 Jakeñ	Jakeñ
