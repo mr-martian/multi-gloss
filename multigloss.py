@@ -100,6 +100,10 @@ class Word:
                 if m_ls:
                     self.process_morphs(ln, m_start, i-1, m_ls)
                 self.fields.append((i, v or ''))
+        if len(ls) > len(lang.lines):
+            for f in ls[-1].split(','):
+                if f and f[0] == 'F':
+                    self.footnotes.append(f[1:])
 
 class Line:
     def __init__(self):
@@ -413,6 +417,7 @@ HTML_TEMPLATE = '''<!DOCTYPE html>
     <style>{css}</style>
   </head>
   <body>
+    <button id="show-controls">show/hide controls</button>
     <div id="controls"></div>
     <div id="display"></div>
     <script type="text/javascript">{jquery}</script>

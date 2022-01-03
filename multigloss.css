@@ -18,3 +18,20 @@ p {
 .lang-line:nth-child(even) {
     background: #DDDDDD;
 }
+
+td.footnote-label {
+    vertical-align: top;
+}
+
+td.footnote-label span {
+    margin-top: 15px;
+}
+
+.footnote-ref {
+    float: right;
+    font-size: smaller;
+}
+
+.lang-control {
+    display: inline-block;
+}
