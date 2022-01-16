@@ -262,6 +262,7 @@ X	iszybok	ise-zbk/yo		you pour out
 X	lamde	lbd/á		syrup
 X	amngathen	á[case]-bgth/óa-en		into a pan
 X	iswafeufeun.	ise-wa-ffd/euéú		you will see that it will dry out
+X-T	If you pour syrup into a pan, you will see that it will dry out.
 S	Zhnazym	zhnazym		table
 S	fmolk	fmk<ol>		[irrealis]
 S	melnazic	melnazic		syrup
@@ -279,6 +280,7 @@ X	iszybok	ise-zbk/yo		you pour out
 X	zebyk	zbk/ey		water
 X	amngathen	á[case]-bgth/óa-en		into a pan
 X	iswaseuseunh.	ise-wa-sst/euéú		you will see that it will disappear
+X-T	If you pour out water into a pan, you will see that it will disappear.
 S	Zhnazym	zhnazym		table
 S	fmolk	fmk<ol>		[irrealis]
 S	tolzlneln	tolzlneln		water
@@ -434,6 +436,7 @@ X	tawatel	twt/aa-el		elements
 X	alem	alem		beside
 X	dazibelwan,	dzb/ai-el=wan		dissimilar
 X	lewajañeb.	le-wa-jzb/áe		they will speed up
+X-T	If elements are beside dissimilar ones, they will speed up.
 S	Smah	smah		but
 S	solm	solm		swiftly
 S	jetekeht	jetek-eht		exchange places
