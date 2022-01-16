@@ -263,7 +263,7 @@ X	lamde	lbd/á		syrup
 X	amngathen	á[case]-bgth/óa-en		into a pan
 X	iswafeufeun.	ise-wa-ffd/euéú		you will see that it will dry out
 S	Zhnazym	zhnazym		table
-S	fmolk	fmolk		[irrealis]
+S	fmolk	fmk<ol>		[irrealis]
 S	melnazic	melnazic		syrup
 S	navnycum,	navnyc-um		be upon
 S	jo	jo		then
@@ -280,7 +280,7 @@ X	zebyk	zbk/ey		water
 X	amngathen	á[case]-bgth/óa-en		into a pan
 X	iswaseuseunh.	ise-wa-sst/euéú		you will see that it will disappear
 S	Zhnazym	zhnazym		table
-S	fmolk	fmolk		[irrealis]
+S	fmolk	fmk<ol>		[irrealis]
 S	tolzlneln	tolzlneln		water
 S	navnycum,	navnyc-um		be upon
 S	jo	jo		then
@@ -312,12 +312,31 @@ X	zebken	zbk/ey-en		in water
 X	lebfílek	le-bfl/uí=ek		it slows down and
 X	letañeb.	le-tzb/áe		it sinks
 X-T	We understand its majority's being meat by this: In water it slows down and sinks.
+S	Fynit	fynit		flesh
+S	thec	thec		we infer
+S	zanum	zan-um		is
+S	zovmeh	zo-vmeh		its
+S	gagan	gagan		primary
+S	funmuntivemolk	fun-mun-tivemolk		element
+S	dom	dom		because
+S	tolzlneln	tolzlneln		water
+S	vmat	vmat		amidst
+S	melnazic	melnazic		syrup
+S	vynit	vynit		slowly
+S	datukmuneht.	dat-uk-mun-eht		sinks
+S-T	We infer that its primary element is flesh because in water syrup sinks slowly.
 
 %LINE
 X	Zebyk	zbk/ey		water
 X	zebken	zbk/ey-en		in water
 X	tañbelwan.	tzb/á-el=wan		does not sink
 X-T	Water does not sink in water.
+S	Tolzlneln	tolzlneln		water
+S	vmat	vmat		amidst
+S	tolzlneln	tolzlneln		water
+S	datukmuneht	dat-uk-mun-eht		sinks
+S	molt.	mt<ol>		not
+S-T	In water, water does not sink.
 
 %LINE
 X	Beslek	bsl/ey=ek		stone and
@@ -326,6 +345,12 @@ X	zebken	zbk/ey-en		in water
 X	bufílelwanek	bfl/uí-el=wan=ek		not slow and
 X	letañeb.	le-tzb/áe		they sink
 X-T	Stone and dirt are not slow in water and they sink.
+S	Thefam	thefam		stone
+S	keh	keh		and
+S	zazit	zazit		dirt
+S	solm	solm		swiftly
+S	datukmuneht.	dat-uk-mun-eht		sink
+S-T	Stone and dirt sink swiftly.
 
 %LINE
 X	Pówathek	pwth/óa=ek		wet air and
@@ -333,12 +358,24 @@ X	gazajel	gzj/aa-el		dry air
 X	zebken	zbk/ey-en		in water
 X	ledbob.	le-dbb/yo		rise
 X-T	Wet air and dry air rise in water.
+S	Keh	keh		and
+S	foldak	foldak		air
+S	dateht.	dat-eht		rises.
+S-T	And air rises.
 
 %LINE
 X	Efáthel:	e-Fáthel		Fáthel said
 X	Tan	tan		[question]
 X	sójaj?	sjj/óa		fire
 X-T	Fáthel said: What about fire?
+S	Con	con		[quote]
+S	Fáthel	Fáthel		Fáthel
+S	om	om		[end quote]
+S	julgic,	julgic		asked
+S	zulkzhuteht	zulk-zhut-eht		causes burning	N1
+S	duku?	du-ku		what
+S-T	Fáthel asked: What causes burning?
+S-N1	Here juhcen "fire" would probably be a closer translation, but that word is avoided due to negative mythological significance.
 
 %LINE
 X	Ejakeñ	e-Jakeñ		Jakeñ
@@ -348,12 +385,28 @@ X	tawateli	twt/aa-el-i		elements
 X	tegyth	tgth/ey		two
 X	sagawel.	sgw/aa-el		rubbing
 X-T	Jakeñ the Wise said: Fire is two elements rubbing.
+S	Vmelfelc	vmelfelc		wise
+S	con	con		[quote]
+S	Jakeñ	Jakeñ		Jakeñ
+S	om	om		[end quote]
+S	jagec,	jagec		replied
+S	Masekthnu	masek-thnu		rubbing
+S	zanum	zan-um		is
+S	zulkthnu.	zulk-thnu		burning
+S-T	Jakeñ the wise replied: Burning is rubbing.
 
 %LINE
 X	Tawatel	twt/aa-el		elements
 X	lezngasad	le-zú-gsd/aa		want to organize
 X	xowon	xow-on		themselves
 X	etdolel.	e-tdl/yo-el		according to weight
+S	Funmuntivemolkah	fun-mun-tivemolk-ah		elements
+S	tolthim	tolthim		want
+S	cejymumsun	cejym-um-sun		be organized
+S	duah	du-ah		they
+S	telmynsolsolm	telmyn-solsolm		weight
+S	zult.	zult		according to
+S-T	The elements want to be organized according to weight.
 
 %LINE
 X	Gon	gon		if
@@ -365,6 +418,15 @@ X	xwi	xow-i		their
 X	goñhad	gsd/óa		positions
 X	lebuxíj.	le-bxj/uí		they will exchange
 X-T	If elements are beside similar ones, they will slow down and change places.
+S	Daketumgahn	daket-um-gahn		be near
+S	fmolk	fmk<ol>		[irrealis]
+S	cimuhtuk	cimuht-uk		different
+S	funmuntivemolkah	fun-mun-tivemolk-ah		elements
+S	jo	jo		then
+S	vynit	vynit		slowly
+S	jetekeht	jetek-eht		exchange places
+S	duah.	du-ah		they
+S-T	If different elements are near each other, they will slowly exchange places.
 
 %LINE
 X	Gon	gon		if
@@ -372,16 +434,33 @@ X	tawatel	twt/aa-el		elements
 X	alem	alem		beside
 X	dazibelwan,	dzb/ai-el=wan		dissimilar
 X	lewajañeb.	le-wa-jzb/áe		they will speed up
+S	Smah	smah		but
+S	solm	solm		swiftly
+S	jetekeht	jetek-eht		exchange places
+S	cimuhtukmun	cimuht-uk-mun		very different
+S	funmuntivemolkah.	fun-mun-tivemolk-ah		elements
+S-T	But very different elements will exchange places swiftly.
 
 %LINE
 X	Jañbel	jzb/áe-el		fast things
 X	lepuxíj.	le-pxj/uí		heat up
+X-T	Fast things heat up.
+S	Tultkahah	tult-kah-ah		hot things
+S	zyvuhkeht	zyvuhk-eht		become
+S	solm	solm		swift
+S	tultah	tult-ah		things
+S-T	Swift things become hot things.
 
 %LINE
 X	Ujañebek	u-jzb/áe=ek		the fastest and
 X	upaxij	u-pxj/ai		the hottest
 X	sójaj.	sjj/óa		fire
 X-T	The fastest and hottest is fire.
+S	Zho	zho		itself
+S	zulkeht	zulk-eht		burns
+S	solmmun	solm-mun		swiftest
+S	tultkahmunah.	tult-kah-mun-ah		hottest things
+S-T	Very swift very hot things burn themselves.
 
 %LINE
 X	Áwetsen,	á-wts/ey-en		on this subject
@@ -391,6 +470,15 @@ X	eteugeuthel	e-tgth/eueu-el		again
 X	kampe	kbp/á		confusions
 X	átháwekel	á[case]-thwk/áe-el		find
 X	giblam.	gy-ji-blb/eá		did not
+X-T	Unfortunately, Fáthel found within himself no further questions on this subject.
+S	Duzheh	du-zheh		about this
+S	kasyn	kasyn		again
+S	julgicfeh	julgic-feh		ask
+S	molt	mt<ol>		not
+S	Con	con		[quote]
+S	Fáthel	Fáthel		Fáthel
+S	om.	om		[end quote]
+S-T	Fáthel did not again ask a question about this.
 
 %DICT	X	2	3
 á	AGT
@@ -512,6 +600,7 @@ con	QUOT
 deh	PRX
 eht	HAB
 feh	DUR
+gahn	RECIP
 jot	FUT
 ku	QST
 mu	REL
@@ -526,10 +615,14 @@ um	GNO
 vah	INST
 vmeh	GEN
 zheh	FOC
+zhut	CAUS
 
 # TODO: how to gloss these?
 thnu	NMLZ
 noc	NMLZ
+
+mt	NEG
+ol	PRES
 
 cejym	sing
 keh	and
@@ -537,28 +630,36 @@ slnolxem	organize
 thefam	stone
 
 cesik	word
+cimuht	equal
+daket	near
+dat	rise
 decec	only
 din	home
 dolk	one
+dom	because
 du	3I
 duht	big
 ehc	language
 fam	two
 felt	two
-fmolk	IRREL
+fmk	IRREL
 fmuhzhik	dry
 fmyvuhk	make
 foldak	air
 fun	small
 fynit	meat
+gagan	primary
 gyn	AGNT
 jagec	reply
+jetek	exchange.places
 jo	then
 julgic	ask
 julvet	name
 julvolt	name
+kah	hot
 kasyn	again
 kizhult	tell.a.story
+masek	rub
 melnazic	syrup
 molm	tribe
 navnyc	upon
@@ -571,21 +672,26 @@ slolc	four
 smah	but
 so	possessor
 solk	clarify
+solm	swift
 solsolm	spectrum
 tan	said
 telmyn	heavy
+thec	deduction
 tholk	sensed
 tholm	common.sense
 thycam	read
 tidyn	like
 tivemolk	tiny
+tolthim	want
 tolzlneln	water
 tult	thing
 tyk	so
 vaslnulm	flee
 vemek	science
+vmat	amidst
 vmelfelc	wise
 vyk	three
+vynit	slow
 xek	six
 xen	no
 xuhm	ammount
@@ -593,10 +699,12 @@ xyt	all
 zan	be
 zazit	dirt
 zhnazym	table
+zho	REFL
 zlelc	five
 zlo	3A
 znenan	story
 zo	3I
+zulk	burn
 zult	according.to
 zyvuhk	become
 
