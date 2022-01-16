@@ -31,6 +31,7 @@ class Word:
     def __init__(self):
         self.fields = []
         self.footnotes = []
+        self.notes = []
     def json(self):
         lines = []
         for l, v in self.fields:
@@ -50,7 +51,7 @@ class Word:
                         cur.append(m.suffix)
                     ls.append(cur)
                 lines.append(ls)
-        return {'lines': lines, 'footnotes': self.footnotes}
+        return {'lines': lines, 'footnotes': self.footnotes, 'notes': self.notes}
     def process_morphs(self, ln, i, j, morphs):
         if all(x == None for x in morphs):
             self.fields.append(((i,j), []))
@@ -104,6 +105,8 @@ class Word:
             for f in ls[-1].split(','):
                 if f and f[0] == 'F':
                     self.footnotes.append(f[1:])
+                elif f and f[0] == 'N':
+                    self.notes.append(f[1:])
 
 class Line:
     def __init__(self):
@@ -116,8 +119,9 @@ class Line:
 class Sentence:
     def __init__(self):
         self.lines = {}
+        self.notes = {}
     def json(self):
-        dct = {}
+        dct = {'notes': self.notes}
         for l, f in self.lines:
             if l not in dct:
                 dct[l] = {'words': [], 'trans': {}, 'footnotes': {}}
@@ -145,6 +149,10 @@ class Sentence:
             lg = ln.cols[0].split('-')
             if lg[0] not in langs:
                 ln.error("Unknown language '%s'" % lg[0])
+            lg, note = pop_loc(lg, 'N')
+            if note != 0:
+                self.notes[note] = ln.cols[1]
+                continue
             lg, trans = pop_loc(lg, 'T')
             lg, footnote = pop_loc(lg, 'F')
             if len(lg) != 1:

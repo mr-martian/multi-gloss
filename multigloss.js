@@ -2,10 +2,13 @@ var smallcaps = /^[A-Z\.0-9]+$/;
 
 var make_word = function(lg, w) {
     let ret = '<div class="word '+lg+'">';
-    if (w.footnotes.length) {
+    if (w.footnotes.length || w.notes.length) {
         ret += '<span class="footnote-ref">';
         w.footnotes.forEach(function(f) {
             ret += '['+f+']';
+        });
+        w.notes.forEach(function(f) {
+            ret += '[n'+f+']';
         });
         ret += '</span>';
     }
@@ -98,7 +101,7 @@ var make_lang_control = function(lg) {
         ret += '</li>';
     }
     ret += '</ul>';
-    Ret += '</div>';
+    ret += '</div>';
     return ret;
 };
 
@@ -125,6 +128,9 @@ var setup = function() {
         ret += '<div class="line">';
         LANG_ORDER.forEach(function(lg) {
             ret += make_line(lg, line[lg]);
+        });
+        Object.keys(line.notes).sort().forEach(function(fnid) {
+            ret += '<p><span class="footnote-label">[note '+fnid+']</span> '+line.notes[fnid]+'</p>';
         });
         ret += '</div>';
     });
