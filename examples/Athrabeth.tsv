@@ -1,0 +1,546 @@
+%META
+title	Athrabeth
+
+%LANG	E
+name	English
+%TRANS
+Original English
+%LINES
+text	Original English
+
+%LANG	X
+name	Xanz
+%TRANS
+English
+%LINES
+text	Xanz text
+morph	Xanz morphemes
+morph	English morpheme gloss
+trans	English word gloss
+
+%LANG	S
+name	Sajem Tan
+%TRANS
+English
+%LINES
+text	Sajem Tan text
+morph	Sajem Tan morphemes
+morph	English morpheme gloss
+trans	English word gloss
+
+%TEXT
+
+%LINE
+E-T	"Have ye then no hope?" said Finrod.
+X	"Tan	tan		[question]
+X	thomath	thbth/óa		hope
+X	etpokel	e-tpk/yo-el		keep
+X	isbelam?"	ise-blb/eá		not
+X	Finrod	Finrod		Finrod
+X	kal	kal		this
+X	gikudin.	gy-ji-kdd/uí		said
+X-T	"Do you not have hope?" said Finrod.
+S	Con	con		[quote]
+S	Finrod	Finrod		Finrod
+S	om	om		[end quote]
+S	tan	tan		said
+S	"Jo	jo		then
+S	zhuah	zhu-ah		you
+S	zamenum	zamen-um		hope
+S	molt	mt<ol>		not
+S	kolk?"	kk<ol>		[question]
+S-T	"Then do you not hope?" said Finrod.
+
+%LINE
+E-T	"What is hope?" she said.
+X	"Tan	tan		what
+X	thomath?"	thbth/óa		hope
+X	Andreth	Andreth		Andreth
+X	kal	kal		this
+X	gikudin.	gy-ji-kdd/uí		said
+X-T	"What is hope?" Andreth said.
+S	Con	con		[quote]
+S	Andreth	Andreth		Andreth
+S	om	om		[end quote]
+S	tan	tan		said
+S	"Zamenthnu	zamen-thnu		hope
+S	zanum	zan-um		is
+S	duku?"	du-ku		what
+S-T	"What is hope?" Andreth said.
+
+%LINE
+E-T	"An expectation of good, which though uncertain has some foundation in what is known?
+X	"Jókal	jkl/óa		expectation
+X	gathipeli	gthp/ai-el-i		of good
+X	si	si		which
+X	etasikel	e-tsk/ai-el		certain
+X	leblam	le-blb/eá		is not
+X	ol	ol		but
+X	áxow	á[case]-xow		of it
+X	xonaz	xdz/óa		knowledge
+X	ledafik?	le-dfk/ai		supports
+X-T	"An expectation of good, which is not certain but which is supported by knowledge?
+S	"Tulceslitthot	tulceslit-thot		of something that does good
+S	mu	mu		[rel clause]
+S	velgamukum	velgam-uk-um		is uncertain
+S	smah	smah		but
+S	duvmeh	du-vmeh		its
+S	xananzmetthnak	xanan-zmet-thnak		foundation
+S	zanum	zan-um		is
+S	shynnoc	shyn-noc		knowledge
+S	om	om		[end clause]
+S	tezleknoc?	tezlek-noc		expectation
+S-T	"An expectation of something which does good, which is uncertain but knowledge is its foundation?
+
+%LINE
+E-T	Then we have none."
+X	Gon	gon		if
+X	jan,	jan		this
+X	sef	sef		none
+X	áthitypok."	áthi-tpk/yo		we have
+X-T	If so, we have none."
+S	Jo	jo		then
+S	duxehtmunum	du-xeht-mun-um		have none of it
+S	sehah."	seh-ah		we
+S-T	Then we have none of it."
+
+%LINE
+E-T	"That is one thing that Men call 'hope'," said Finrod.
+X	"Jan	jan		that
+X	banthe	bdth/á		one
+X	si	si		[rel clause]
+X	'thomath'	thbth/óa		hope
+X	legáxet,"	le-gxt/áe		is called
+X	Finrod	Finrod		Finrod
+X	kal	kal		this
+X	gikudin.	gy-ji-kdd/uí		said
+X-T	"That is one thing which is called 'hope'," said Finrod.
+S	Con	con		[quote]
+S	Finrod	Finrod		Finrod
+S	om	om		[end quote]
+S	tan	tan		said
+S	"Mu	mu		[rel clause]
+S	zhothot	zho-thot		to it
+S	julvoltehtsun	julvolt-eht-sun		is called
+S	'zamenthnu'	zamen-thnu		hope
+S	om	om		[end clause]
+S	dolk	dolk		one
+S	tult	tult		thing
+S	zanum	zan-um		is
+S	tultdeh."	tult-deh		this thing
+S-T	"This thing is one thing which is called 'hope'," said Finrod.
+
+%LINE
+E-T	"Amdir we call it, 'looking up'.
+X	"'Amdir'	Amdir		Amdir
+X	áthiguxinh,	áthi-gxt/uí		we call it
+X	''euleumel'.	'lb/euéú-el		looking up
+X-T	"We call it 'Amdir', 'looking up'.
+S	Duthot	du-thot		to it
+S	con	con		[quote]
+S	Amdir	Amdir		Amdir
+S	om	om		[end quote]
+S	julvolteht	julvolt-eht		name
+S	sehah,	seh-ah		we
+S	'navnycnelm'.	navnyc-nelm		look up
+S-T	"We name it 'Amdir', 'looking up'."
+
+%LINE
+E-T	But there is another which is founded deeper.
+X	Ol	ol		but
+X	bagili	bgl/ai-i		two's
+X	dállen	dll/á-en		in place
+X	si	si		[rel clause]
+X	xwi	xow-i		its
+X	bañhje	bsj/á		foundation
+X	lefalif	le-flf/ai		is deep
+X	kangudíl	ká-gdl/uí		[comparative]
+X	áthiguxinh.	áthi-gxt/uí		we identify
+X-T	But we identify a second whose foundation is deeper.
+S	Smah	smah		but
+S	feltsut	felt-sut		second
+S	zanum	zan-um		is
+S	keh	keh		and
+S	sitsut	sit-sut		first
+S	gevmulkmehttuum	gevmulk-meht-tu-um		is deeper
+S	duvmeh	du-vmeh		its
+S	xananzmetthnak.	xanan-zmet-thnak		foundation
+S-T	But there is a second and its foundation is deeper than the first.
+
+%LINE
+E-T	Estel we call it, that is 'trust.'
+X	Estel	Estel		Estel
+X	áthiguxinh,	áthi-gxt/uí		we call it
+X	jan	jan		that
+X	'fólak.'	flk/óa		trust
+X-T	We call it Estel, that is 'trust.'
+S	Duthot	du-thot		to it
+S	con	con		[quote]
+S	Estel	Estel		Estel
+S	om	om		[end quote]
+S	julvolteht	julvolt-eht		name
+S	sehah,	seh-ah		we
+S	'veslek'	veslek		trust
+S	zanum	zan-um		is
+S	cesikdeh.	cesik-deh		this word
+S-T	We name it Estel, this word is 'trust.'
+
+%LINE
+E-T	It is not defeated by the ways of the world, for it does not come from experience, but from our nature and first being.
+X	'eudeumh	'dp/euéú		way
+X	kali	kal-i		of this
+X	kólabi	klb/óa-i		world
+X	efdálel	e-fdl/eá-el		defeated
+X	leblam,	le-blb/eá		is not
+X	inel	inel		because
+X	xow	xow		it
+X	efanhgewan,	e-ftg/á=wan		not from experience
+X	ol	ol		but
+X	egxyt	e-gxt/ey		from identity
+X	díxiek	di-i=ek		our and
+X	eja'ilel	e-j'l/ai-el		essence
+X	dállen	dll/á-en		one
+X	banthi	bdth/á-i		[ordinal]
+X	díxi.	di-i		our
+X-T	It is not defeated by the paths of this world, for it is not from experience but from our identity and first essence.
+S	Du	du		it
+S	zisnamkahum	zisnam-kah-um		overwhelmed
+S	molt	mt<ol>		not
+S	xytmolmdinvmeh	xyt-molm-din-vmeh		the world's
+S	tyzyshykah,	tyzyshyk-ah		ways
+S	dom	dom		because
+S	du	du		it
+S	vulcnocum	vulc-noc-um		is the result of experience
+S	molt,	mt<ol>		not
+S	smah	smah		but
+S	sehahvmeh	seh-ah-vmeh		our
+S	shimulczheh	shimulc-zheh		nature
+S	keh	keh		and
+S	sitsut	sit-sut		first
+S	zanthnuzheh	zan-thnu-zheh		being
+S	zanum	zan-um		is
+S	du.	du		it
+S-T	The ways of the world do not overwhelm it, because it is not the result of experience but it is from our nature and first being.
+
+%LINE
+E-T	If we are indeed the Eruhín, the Children of the One, then He will not suffer Himself to be deprived of His own, not by any Enemy, not even by ourselves.
+X	Gon	gon		if
+X	di	di		we
+X	Eruhín,	Eruhín		Eruhín
+X	letyk	ltk/ey		children
+X	Banthi	bdth/á-i		of the One
+X	áthija'il	áthi-j'l/ai		we are
+X	gal,	gal		indeed
+X	Esíxi	e-sit-i		of his own
+X	gálxel	glx/áe-el		deprived
+X	esubinlek	e-sbd/uí-el=ek		suffer
+X	gytibelam,	gy-ti-blb/eá		he will not
+X	pang	pang		by
+X	sef	sef		no
+X	fadalel,	fdl/aa-el		enemy
+X	pang	pang		by
+X	sef	sef		not
+X	di	di		us
+X	gal.	gal		even
+X-T	If we ourselves are indeed Eruhín, the Children of the One, He will not suffer deprivation of his own by any enemy, not even by ourselves.
+S	Con	con		[quote]
+S	Eruhín	Eruhín		Eruhín
+S	om,	om		[end quote]
+S	Dolkvmeh	dolk-vmeh		the One's
+S	dazlelfimah	dazlelfim-ah		children
+S	zanum	zan-um		are
+S	dit	dt<i>		indeed
+S	fmolk	fmk<ol>		[irrealis]
+S	sehah,	seh-ah		we
+S	jo	jo		then
+S	mu	mu		[rel clause]
+S	Zlothot	zlo-thot		to Him
+S	snamukmunfehsun	snam-uk-mun-feh-sun		be deprived
+S	mu	mu		[rel clause]
+S	zhosoum	zho-so-um		have them
+S	Zlo	zlo		He
+S	um	um		[end clause]
+S	sehah	seh-ah		we
+S	om	om		[end clause]
+S	zlah	zlah		[complementizer]
+S	shmithulnfeh	shmithuln-feh		permit
+S	molt	mt<ol>		not
+S	Zlojot;	zlo-jot		He will
+S	mehn	mehn		any
+S	nulnukmun	nuln-uk-mun		enemy
+S	shmithulnfeh	shmithuln-feh		permit
+S	molt	mt<ol>		not
+S	Zlojot;	zlo-jot		He will
+S	sehah	seh-ah		us
+S	vynacen	vynacen		even
+S	shmithulnfeh	shmithuln-feh		permit
+S	molt	mt<ol>		not
+S	Zlojot.	zlo-jot		He will
+S-T	If we are indeed Eruhín, the Children of the One, then He will not permit that we who are his should be taken from him; He will not permit any enemy; He will not even permit us.
+
+%LINE
+E-T	This is the last foundation of Estel, which we keep even when we contemplate the End:
+X	Jan	jan		that
+X	gelten	glt/ey-en		in the end
+X	Estel	Estel		Estel
+X	lebasijek	le-bsj/ai=ek		is the foundation and
+X	áthitypok	áthi-tpk/yo		we keep it
+X	gal	gal		indeed
+X	tong	tong		when
+X	Gelyt	glt/ey		the End
+X	áthifeuteung:	áthi-ftg/euéú		we think of
+X-T	That is in the end the foundation of Estel and we keep it when we consider the End:
+S	Con	con		[quote]
+S	Estel	Estel		Estel
+S	omvmeh	om-vmeh		[end quote]'s
+S	goltsut	golt-sut		last
+S	thnak	thnak		root
+S	zanum	zan-um		is
+S	du,	du		it
+S	keh	keh		and
+S	du	du		it
+S	vynacen	vynacen		even
+S	julvnolkeht	julvnolk-eht		hold
+S	sehah	seh-ah		we
+S	mahn	mahn		when
+S	Goltzheh	golt-zheh		the End
+S	femekahsoeht	femek-ah-so-eht		consider
+S	sehah:	seh-ah		we
+S-T	It is the last root of Estel, and we even hold it when we consider the End:
+
+%LINE
+E-T	of all His designs the issue must be for His Children's joy.
+X	Ekujiñ	e-kjz/uí		of plans
+X	Síxi,	sit-i		His
+X	kejyz	kjz/ey		intention
+X	áflax	á[case]-flx/óa		for joy
+X	Letki	ltk/ey-i		of children
+X	Síxi	sit-i		His
+X	lewaja'il	le-wa-j'l/ai		be
+X	je'.	je'		must
+X-T	of His plans, the intention must be for His Children's joy.
+S	Xyt	xyt		all
+S	veldannocahzheh,	veldan-noc-ah-zheh		of intentions
+S	Zlovmeh	zlo-vmeh		His
+S	Dazlelfimahvmeh	dazlelfim-ah-vmeh		Children's
+S	slekteh	slek-teh		for joy
+S	zanum	zan-um		be
+S	jit	jt<i>		must
+S	takolm.	takolm		goal
+S-T	Regarding all his intentions, the goal must be for His Children's joy.
+
+%LINE
+E-T	Amdir you have not, you say.
+X	Amdir	Amdir		Amdir
+X	etpokel	e-tpk/yo-el		have
+X	isbelam,	ise-blb/eá		you do not
+X	iskudin.	ise-kdd/uí		you say
+X-T	You do not have Amdir, you say.
+S	Con	con		[quote]
+S	Amdir	Amdir		Amdir
+S	omxehtum	om-xeht-um		[end quote] be without
+S	zhuah,	zhu-ah		you
+S	zhu	zhu		you
+S	tan.	tan		say
+S-T	You are Amdir-less, you say.
+
+%LINE
+E-T	Does no Estel at all abide?"
+X	Tan	tan		[question]
+X	sef	sef		no
+X	Estel	Estel		Estel
+X	letupík	le-tpk/uí		remain
+X	gal?"	gal		indeed
+X-T	Does no Estel, indeed, remain?"
+S	Con	con		[quote]
+S	Estel	Estel		Estel
+S	omxehtmun	om-xeht-mun		[end quote] absence
+S	kelginum	kelgin-um		be left over
+S	kolk?"	kk<ol>		[question]
+S-T	Is a complete absence of Estel left over?"
+
+%DICT	X	2	3
+á	AGT
+aa	INTS
+áe	PASS
+ai	STAT
+eá	PERF
+ey	PAT
+eueu	MID
+euéú	WIT
+óa	INST
+uí	ACT
+yo	CAUS
+
+ana	S1O2
+áthi	S1O3
+ise	S2O3
+gy	S3AO3
+le	S3IO3
+
+á[case]	TO
+e	AWAY
+el	PART
+en	LOC
+i	GEN
+ji	PST
+ká	SVC
+ti	FUT
+wa	POT
+zú	DES
+on	REFL
+u	SUP
+un	NMLZ
+
+kal	PRX.DEM
+xow	3.INAN
+sit	3.ANIM
+jan	DEM.INAN
+di	1
+
+tan	QST
+ek	and
+gon	if
+sef	none
+si	REL
+ol	but
+pang	by
+gal	indeed
+tong	when
+je'	necessary
+inel	because
+wan	NEG
+
+'dp	walk
+'lb	ascend
+bdth	one
+bgl	four
+blb	NEG
+bsj	foundation
+dfk	support
+dll	location
+fdl	oppose
+flf	deep
+flk	trust
+flx	happy
+ftg	experience
+gdl	CMP
+glt	head
+glx	deprive
+gthp	good
+gxt	identify
+j'l	COP
+jkl	expect
+kdd	say
+kjz	plan
+klb	world
+ltk	child
+sbd	suffer
+thbth	hope
+tpk	remain
+tsk	clear
+xdz	wisdom
+
+Finrod	Finrod
+Andreth	Andreth
+Eruhín	Eruhín
+Estel	Estel
+Amdir	Amdir
+
+%DICT	S	2	3
+ah	PL
+con	QUOT
+deh	PRX
+eht	HAB
+feh	DUR
+gahn	RECIP
+jot	FUT
+ku	QST
+mu	REL
+mun	INTS
+om	END.QUOT
+sho	CONT
+sun	PASS
+sut	ORD
+tutu	SUP
+uk	NEG
+um	GNO
+vah	INST
+vmeh	GEN
+zheh	FOC
+zhut	CAUS
+
+Finrod	Finrod
+Andreth	Andreth
+Eruhín	Eruhín
+Estel	Estel
+Amdir	Amdir
+
+dt	indeed
+fmk	IRR
+jk	necessary
+kk	INT
+mt	NEG
+ol	PRES
+i	PRES
+
+cesik	word
+dazlelfim	child
+din	home
+dolk	one
+dom	because
+du	3.NEUT
+felt	two
+femek	mind
+gevmulk	underground
+golt	end
+jo	then
+julvnolk	hold
+julvolt	name
+kah	energetic
+keh	and
+kelgin	remain
+mahn	while
+mehn	some
+meht	ADJV
+molm	tribe
+navnyc	upon
+nelm	see
+noc	RSLT
+nuln	friend
+seh	1.ANIM
+shimulc	nature
+shyn	know
+slek	happy
+smah	but
+shmithuln	allow
+sit	beginning
+snam	give
+so	have
+takolm	goal
+tan	say
+teh	CAUS
+tezlek	worry
+thnak	root
+thnu	NMLZ
+thot	DAT
+tu	CMP
+tulceslit	good.effect
+tult	thing
+tyzyshyk	way
+veldan	intend
+velgam	certain
+veslek	trust
+vulc	occur
+vynacen	even
+xanan	life
+xeht	without
+xyt	all
+zamen	hope
+zan	COP
+zho	REFL
+zhu	2.ANIM
+zisnam	cover
+zlah	CMPL
+zlo	3.ANIM
+zmet	building
